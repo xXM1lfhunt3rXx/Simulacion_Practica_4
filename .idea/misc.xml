@@ -3,13 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/Proyectos/pract4_tiroParabolico/app/src/main/res/drawable/ball.xml" value="0.2985" />
+        <entry key="..\:/AndroidStudio/Proyectos/pract4_tiroParabolico/app/src/main/res/layout/activity_entries.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/Proyectos/pract4_tiroParabolico/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidStudio/Proyectos/pract4_tiroParabolico/app/src/main/res/layout/activity_plot.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidStudio/Proyectos/pract4_tiroParabolico/app/src/main/res/layout/activity_re.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidStudio/Proyectos/pract4_tiroParabolico/app/src/main/res/layout/activity_resultados.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Roberto/AndroidStudioProjects/Practica4simulacion/app/src/main/res/drawable/ball.xml" value="0.2405" />
         <entry key="..\:/Users/Roberto/AndroidStudioProjects/Practica4simulacion/app/src/main/res/layout/activity_entries.xml" value="0.6" />
         <entry key="..\:/Users/Roberto/AndroidStudioProjects/Practica4simulacion/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/ssrub/AndroidStudioProjects/Tiro_parabolico/app/src/main/res/layout/activity_entries.xml" value="0.33" />
+        <entry key="..\:/Users/ssrub/AndroidStudioProjects/Tiro_parabolico/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ssrub/AndroidStudioProjects/pract4_tiroParabolico/app/src/main/res/layout/activity_entries.xml" value="0.33" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

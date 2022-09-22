@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    tools:context=".PlotActivity">
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/plot"
+        android:layout_width="670dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="92dp"
+        ap:domainTitle="Distancia"
+        ap:domainTitleHeight="50dp"
+        ap:domainTitleVerticalPosition="-30"
+        ap:rangeTitleHorizontalPosition="-30"
+        ap:rangeTitleWidth="20dp"
+        ap:paddingBottom="20dp"
+        ap:paddingLeft="5dp"
+        ap:domainTitleTextSize="20dp"
+        ap:lineLabels="left|bottom"
+        ap:lineLabelRotationBottom="45"
+        ap:lineLabelRotationLeft="90"
+        ap:rangeTitle="Altura"
+        ap:rangeTitleTextSize="20dp"
+        ap:lineLabelTextSizeBottom="15dp"
+        app:lineLabelTextSizeLeft="15dp"
+
+        ap:title=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValoresIniciales" />
+
+    <TextView
+        android:id="@+id/textViewValoresIniciales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDistancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValoresIniciales" />
+
+    <TextView
+        android:id="@+id/textViewTiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toEndOf="@+id/textViewDistancia"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValoresIniciales" />
+
+    <Button
+        android:id="@+id/buttonResultados"
+        android:layout_width="109dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Resultados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toEndOf="@+id/textViewTiempo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValoresIniciales" />
+
+    <TextView
+        android:id="@+id/textViewCACA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/buttonResultados"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/textViewTiempo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValoresIniciales" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
